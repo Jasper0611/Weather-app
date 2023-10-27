@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weather App</title>
+    <h1 style = "text-align: center">Weather App </h1>
+</head>
+<body>
+    <div class = "content">
+        <h4 style = "text-align: left">Please select the city and units to know the weather details</h4>
+    
+    <form action="/weather_app" method="post">
+        <label for="city">City:</label>
+        <input type="text" id="city" name="city" required><br><br>
+
+        <label for="units">units:</label>
+        <input type="units" id="units" name="units" required><br><br>
+
+        <input type="submit" value="Search">
+    </form>
+</body>
+</html>
